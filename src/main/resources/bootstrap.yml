@@ -1,0 +1,6 @@
+server:
+  port: 8888
+myA: 123
+spring:  
+  profiles:  
+    active: dev
