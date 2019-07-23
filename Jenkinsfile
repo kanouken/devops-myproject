@@ -4,7 +4,8 @@ node {
 			checkout scm
 		}
 		stage("maven Task") {
-			def maven = tool 'maven' sh "${maven}/bin/mvn clean -e -U package"
+			def maven = tool 'maven' 
+			sh "${maven}/bin/mvn clean -e -U package"
 		}
 
 }
