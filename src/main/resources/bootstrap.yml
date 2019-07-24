@@ -1,6 +1,6 @@
 server:
   port: 8888
-myA: 1234
+myA: 12345
 spring:  
   profiles:  
     active: dev
